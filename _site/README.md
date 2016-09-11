@@ -1,6 +1,6 @@
-# Katie Swinden
+# The Windsor Castle
 
-Website for Inside Retail. Please go to [www.katieswinden.com](http://katieswinden.com) in case you want to take a look at the website.
+Website for The Windsor Castle. Please go to [www.thewindsorcastleclapton.com](http://thewindsorcastleclapton.com) in case you want to take a look at the website.
 
 * * *
 

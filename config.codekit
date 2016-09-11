@@ -511,6 +511,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/_site\/uploads\/burger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212028,
+		"inputAbbreviatedPath": "\/_site\/uploads\/burger.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/burger.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/uploads\/luther-season-one.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -540,6 +551,17 @@
 		"initialSize": 121381,
 		"inputAbbreviatedPath": "\/_site\/uploads\/marvellous.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/marvellous.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/uploads\/outside.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 310969,
+		"inputAbbreviatedPath": "\/_site\/uploads\/outside.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/outside.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -599,6 +621,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_uploads\/burger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212028,
+		"inputAbbreviatedPath": "\/_uploads\/burger.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/burger.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_uploads\/luther-season-one.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -628,6 +661,17 @@
 		"initialSize": 121381,
 		"inputAbbreviatedPath": "\/_uploads\/marvellous.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/marvellous.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/outside.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 310969,
+		"inputAbbreviatedPath": "\/_uploads\/outside.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/outside.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

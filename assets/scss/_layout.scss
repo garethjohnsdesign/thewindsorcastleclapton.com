@@ -237,13 +237,12 @@ a {
 // Footer
 
 footer {
-	margin-top: 3rem;
-	background-color: $color--darkest-gray;
+	background-color: $color--light-gray;
 	color: $color--dark-gray;
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 	a {
-    color: $color--white;
+    color: $color--black;
     }
 }
 
@@ -270,47 +269,23 @@ footer .detail {
 //Carousel
 
 
-.carousel__text {
+.hero-carousel-text {
 	height: 100%;
 }
 
 
-.carousel__text h1 a {
+.hero-carousel-text h1 a {
 	color: $color--white;
 	&:hover {
       color: $color--dark-gray;
     }
 }
 
-.carousel__button {
- 	line-height: $line-height--tight;
- 	background-color: $color--black;
- 	color: $color--white;
-	padding: 1rem 1.5rem;
-	margin-top: 1rem;
-	&:hover {
-      background-color: $color--white;
-      color: $color--black;
-    }
-}
-
-.carousel__image img {
- 	z-index: -1;
- 	position: absolute; 
- 	left: 0px; 
- 	bottom:0px; 
- 	width: 100%;
- 	height: 100%;
-    object-fit: cover;
-    overflow: hidden;
- 	opacity: 0.9;
-}
-
-.gallery {
+.hero-carousel {
   height: 100vh; 
 }
 
-.gallery-cell {
+.hero-carousel-cell {
   width: 100%;
   height: 100%;
   /* inherit height from gallery */
@@ -319,4 +294,50 @@ footer .detail {
   background-position: top center;
   z-index: 1; }
   
+.hero-address {
+	position: absolute;
+	bottom: 2rem;
+	width: 100%;
+	z-index: 110;
+	font-family: $header-font-family;
+	font-size: 1.5rem;
+	a {
+    color: $color--white;
+    }
+    a:hover {
+    color: $color--light-gray;
+    }
+}
+
+.hero-arrow {
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
+	z-index: 110;
+	font-family: $header-font-family;
+	font-size: 1.5rem;
+	a {
+    color: $color--white;
+    }
+    a:hover {
+    color: $color--light-gray;
+    }
+}
+
+
+.hero-wrapper {
+	position: relative;
+}
+
+  
 // Testing
+
+.teaser {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.about {
+	background-color: $color--light-brown;
+	color: $color--white;
+}

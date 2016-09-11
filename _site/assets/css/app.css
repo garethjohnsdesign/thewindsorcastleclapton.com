@@ -2186,6 +2186,11 @@ Copyright (c) 2015 Daniel Eden
   animation-name: slideOutUp; }
 
 @font-face {
+  font-family: 'SortsMillGoudy-Regular';
+  src: url("../fonts/SortsMillGoudy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SortsMillGoudy-Regular.woff") format("woff"), url("../fonts/SortsMillGoudy-Regular.ttf") format("truetype"), url("../fonts/SortsMillGoudy-Regular.svg#SortsMillGoudy-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'ApercuPro-Regular';
   src: url("../fonts/ApercuPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ApercuPro-Regular.woff") format("woff"), url("../fonts/ApercuPro-Regular.ttf") format("truetype"), url("../fonts/ApercuPro-Regular.svg#ApercuPro-Regular") format("svg");
   font-weight: normal;
@@ -2237,7 +2242,7 @@ Copyright (c) 2015 Daniel Eden
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
     height: 3px;
-    background-color: #000;
+    background-color: #FFFFFF;
     border-radius: 0px;
     position: absolute;
     -webkit-transition-property: -webkit-transform;
@@ -6104,7 +6109,7 @@ body {
           backface-visibility: hidden;
   z-index: 1;
   padding-bottom: 0.1px;
-  box-shadow: 0 0 10px rgba(10, 10, 10, 0.5); }
+  box-shadow: 0 0 0 rgba(10, 10, 10, 0.5); }
 
 .js-off-canvas-exit {
   display: none;
@@ -6113,14 +6118,14 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(254, 254, 254, 0.25);
+  background: rgba(34, 34, 34, 0.25);
   cursor: pointer;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease; }
 
 .off-canvas {
   position: absolute;
-  background: #e6e6e6;
+  background: #99694a;
   z-index: -1;
   max-height: 100%;
   overflow-y: auto;
@@ -8379,13 +8384,12 @@ a {
   padding-bottom: 3rem; }
 
 footer {
-  margin-top: 3rem;
-  background-color: #333333;
+  background-color: #d6d6d6;
   color: #949494;
   padding-bottom: 1rem;
   padding-top: 1rem; }
   footer a {
-    color: #ffffff; }
+    color: #222222; }
 
 .footer__top {
   padding-top: 3rem;
@@ -8402,40 +8406,18 @@ footer .detail {
 .footer__bottom a {
   color: #949494; }
 
-.carousel__text {
+.hero-carousel-text {
   height: 100%; }
 
-.carousel__text h1 a {
+.hero-carousel-text h1 a {
   color: #ffffff; }
-  .carousel__text h1 a:hover {
+  .hero-carousel-text h1 a:hover {
     color: #949494; }
 
-.carousel__button {
-  line-height: 1.16;
-  background-color: #222222;
-  color: #ffffff;
-  padding: 1rem 1.5rem;
-  margin-top: 1rem; }
-  .carousel__button:hover {
-    background-color: #ffffff;
-    color: #222222; }
-
-.carousel__image img {
-  z-index: -1;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow: hidden;
-  opacity: 0.9; }
-
-.gallery {
+.hero-carousel {
   height: 100vh; }
 
-.gallery-cell {
+.hero-carousel-cell {
   width: 100%;
   height: 100%;
   /* inherit height from gallery */
@@ -8443,5 +8425,40 @@ footer .detail {
   background-size: cover;
   background-position: top center;
   z-index: 1; }
+
+.hero-address {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  z-index: 110;
+  font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.5rem; }
+  .hero-address a {
+    color: #ffffff; }
+  .hero-address a:hover {
+    color: #d6d6d6; }
+
+.hero-arrow {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 110;
+  font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.5rem; }
+  .hero-arrow a {
+    color: #ffffff; }
+  .hero-arrow a:hover {
+    color: #d6d6d6; }
+
+.hero-wrapper {
+  position: relative; }
+
+.teaser {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.about {
+  background-color: #99694a;
+  color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */
