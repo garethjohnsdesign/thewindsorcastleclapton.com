@@ -1,6 +1,6 @@
-# The Windsor Castle
+# Dragonfly Scenery
 
-Website for The Windsor Castle. Please go to [www.thewindsorcastleclapton.com](http://thewindsorcastleclapton.com) in case you want to take a look at the website.
+Website for Dragonfly Scenery. Please go to [www.dragonflyscenery.com](http://dragonflyscenery.com) in case you want to take a look at the website.
 
 * * *
 

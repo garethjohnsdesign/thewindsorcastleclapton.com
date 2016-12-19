@@ -1,30 +1,21 @@
-<article class="excerpt">
-<!-- Image -->
-<a href="{{project.url}}">
-<div class="excerpt__image">
-<img src="{{project.img}}" alt="{{project.title}}" />
+<!-- Excerpt -->
+<div class="excerpt">
+  <a href="{{ project.url }}">
+
+  <!-- Excerpt Title -->
+  <div class="row excerpt__title">
+    <div class="small-12 columns align-middle text-center">
+      <p>{{ project.title }}<p>
+    </div>
+  </div>
+  <!-- End Excerpt Title -->
+
+  <!-- Excerpt Image -->
+  <div class="excerpt__image">
+  <img src="{{project.image}}" alt="{{project.title}}">
+  </div>
+  <!-- End Image -->
+
+  </a>
 </div>
-</a>
-<!-- End Image -->
-
-<!-- Title -->
-<h2 class="excerpt__title underline-black"><a href="{{ project.url }}">{{ project.title }}</a></h2>
-<!-- End Title -->
-
-<!-- Span -->
-<p class="excerpt__director"><a href="{{ project.url }}">{{ project.span }}</a></p>
-<!-- End Span -->
-
-<!-- Company -->
-<p class="excerpt__with"><a href="{{ project.url }}">{{ project.company }}</a></p>
-<!-- End Company -->
-
-<!-- Runtime -->
-<p class="excerpt__with"><a href="{{ project.url }}">{{ project.runtime }}</a></p>
-<!-- End Runtime -->
-
-<!-- Awards -->
-<p class="excerpt__with"><a href="{{ project.url }}">{{ project.awards }}</a></p>
-<!-- End Awards -->
-
-</article>
+<!-- End Excerpt -->

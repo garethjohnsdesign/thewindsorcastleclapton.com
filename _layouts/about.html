@@ -2,42 +2,18 @@
 layout: default
 ---
 
-<!-- Navigation -->
-{% include navigation.html %}
-<!-- End Navigation -->
+<section class="about">
 
-<!-- Content -->
-<section class="about__content">
-	<div class="row">
-		<div class="small-11 medium-10 large-8 columns">
-		{{ page.content | markdownify }}
-		</div>
-	</div>
-</section>
-<!-- End Content -->
+<div class="row about__description align-center text-center">
+  <div class="small-11 medium-10 large-9 columns">
+    <h5>{{ content }}</h5>
+  </div>
+</div>
 
-<!-- CV -->
-<section class="about__cv">
-	{% assign collection = site.projects | group_by: "medium" %}
-	{% for group in collection %}
-		<div class="row">
-		<div class="small-12 columns">
-			<h3>Projects</h3>
-			<table class="hover">
-			  <tbody>
-				{% assign collectionsorted = group.items | sort: 'date' | reverse %}
-				{% for item in collectionsorted %}
-			    <tr>
-			      <td width="150">{{item.title}}</td>
-			      <td width="200">{{item.company}}</td>
-			      <td width="200">{{item.producers}}</td>
-			      <td width="40">{{item.date | date: '%Y'}}</td>
-			    </tr>
-			    {%endfor%}
-			  </tbody>
-			</table>
-		</div>
-		</div>
-	{%endfor%}
+<div class="row about__clients align-center text-center">
+  <div class="small-12 medium-8 large-8 columns">
+    {{ page.clients-text | markdownify }}
+  </div>
+</div>
+
 </section>
-<!-- End CV -->
