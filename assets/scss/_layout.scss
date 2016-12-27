@@ -79,29 +79,29 @@ i, cite, em, var, address, dfn {
 }
 
 .section-about {
-  background: red;
+  background: $color-periglacial-blue;
   @include flex;
   @include flex-align(center, middle);
 }
 
 .section-restaurant {
-  background: blue;
+  background: $color-tulip-tree;
   @include flex;
   @include flex-align(center, middle);
 }
 
 .section-bar {
-  background: green;
+  background: $color-coral-candy;
   @include flex;
   @include flex-align(center, middle);
 }
 
 .section-gallery {
-  background: pink;
+  background: $color-tall-poppy;
 }
 
 .section-menu {
-  background: teal;
+  background: $color-french-gray;
 }
 
 /*
