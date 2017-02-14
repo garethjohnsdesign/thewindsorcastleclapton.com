@@ -5,12 +5,19 @@
 {% include head.html %}
 <!-- End Head -->
 
-<body>
+<body class="{{page.title | slugify}} animated fadeIn">
 
-<!-- Content -->  
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+{% include navigation-canvas.html %}
+</div>
+
+<div class="off-canvas-content" data-off-canvas-content>
+  
 {{ content }}
-<!-- End Content -->
-   
+
+{% include footer.html %}
+</div>
+
 </body>
 
 <!-- Scripts -->

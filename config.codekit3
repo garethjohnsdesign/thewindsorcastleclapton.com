@@ -69,10 +69,10 @@
 		"oAP": "\/_includes\/icons.html",
 		"oF": 0
 		},
-	"\/_includes\/navigation.html": {
+	"\/_includes\/navigation-canvas.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/navigation.html",
+		"oAP": "\/_includes\/navigation-canvas.html",
 		"oF": 0
 		},
 	"\/_includes\/overlay-menu.html": {
@@ -160,6 +160,14 @@
 		"iS": 329217,
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/main-bg.jpg": {
+		"ft": 16384,
+		"iS": 225735,
+		"oA": 0,
+		"oAP": "\/_uploads\/main-bg.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -485,11 +493,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/script-min.js": {
+	"\/assets\/js\/min\/svgxuse-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/script-min-min.js",
+		"oAP": "\/assets\/js\/min\/min\/svgxuse-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -512,19 +520,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_animate.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_animsition.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_animsition.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

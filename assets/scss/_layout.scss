@@ -12,6 +12,16 @@
 // 1. Global
 // ---------
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+:focus {
+outline: 0;
+}
+
 body {
   cursor: default;
 }
@@ -72,7 +82,7 @@ i, cite, em, var, address, dfn {
 }
 
 .section-home {
-  background: url(../img/main-bg.jpg) 50% 50% no-repeat;
+  background: url(/uploads/main-bg.jpg) 50% 50% no-repeat;
   background-size: cover;
   @include flex;
   @include flex-align(center, middle);

@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="generator" content="Siteleaf, http://siteleaf.com" />
 
-  <!-- Begin Jekyll SEO tag v2.0.0 -->
+  <!-- Begin Jekyll SEO tag v2.1.0 -->
 <meta property="og:title" content="Contact" />
 <meta name="description" content="The Windsor Castle is a big Victorian pub located at 135 Lower Clapton Road, Hackney." />
 <meta property="og:description" content="The Windsor Castle is a big Victorian pub located at 135 Lower Clapton Road, Hackney." />
@@ -19,16 +19,16 @@
 <meta property="og:site_name" content="The Windsor Castle" />
 <meta name="google-site-verification" content="oQiN6bS9M_g2Tab9_PIFUo7Cx3CqdPqUOe83iOMB1jA" />
 <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "headline": "Contact",
-    "description": "The Windsor Castle is a big Victorian pub located at 135 Lower Clapton Road, Hackney.",
-    "logo": "http://thewindsorcastleclapton.com/assets/img/logo.svg",
-    "url": "http://thewindsorcastleclapton.com/contact/"
-  }
-</script>
+{"@context": "http://schema.org",
+"@type": "WebPage",
+"headline": "Contact",
+"description": "The Windsor Castle is a big Victorian pub located at 135 Lower Clapton Road, Hackney.",
+"publisher": {"@type": "Organization",
+"logo": {"@type": "ImageObject",
+"url": "http://thewindsorcastleclapton.com/assets/img/logo.svg"}},
+"url": "http://thewindsorcastleclapton.com/contact/"}</script>
 <!-- End Jekyll SEO tag -->
+
   <title>Contact - The Windsor Castle</title>
   
   <!-- Icons -->
@@ -56,16 +56,44 @@
 </head>
 <!-- End Head -->
 
-<body>
+<body class="contact animated fadeIn">
 
-<!-- Content -->  
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+<nav class="nav__right">
+<ul class="vertical menu" data-accordion-menu>
+      <li>
+      <a href="#" class="uppercase">Collections</a>
+      
+      <ul class="nested vertical menu">
+      
+      </ul>
+      
+      </li>
+      
+      <li>
+      <a href="#" class="uppercase">Collaborations</a>
+      
+      <ul class="nested vertical menu">
+      
+      </ul>
+      
+      </li>
+      
+      <li><a href="/contact" class="uppercase">Contact</a></li>
+
+</ul>
+</nav>
+</div>
+
+<div class="off-canvas-content" data-off-canvas-content>
+  
 <section class="contact">
 
 <div class="row contact__studio align-center text-center">
   <div class="small-12 medium-10 large-8 columns">
   <p class="contact__detail">Studio</p>
   <p><a href="tel:\+447774854367">+44 (0)77 7485 4367</a><br />
-<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#116;&#117;&#100;&#105;&#111;&#064;&#100;&#114;&#097;&#103;&#111;&#110;&#102;&#108;&#121;&#115;&#099;&#101;&#110;&#101;&#114;&#121;&#046;&#099;&#111;&#109;">&#115;&#116;&#117;&#100;&#105;&#111;&#064;&#100;&#114;&#097;&#103;&#111;&#110;&#102;&#108;&#121;&#115;&#099;&#101;&#110;&#101;&#114;&#121;&#046;&#099;&#111;&#109;</a></p>
+<a href="mailto:studio@dragonflyscenery.com">studio@dragonflyscenery.com</a></p>
 
   </div>
 </div>
@@ -74,7 +102,7 @@
   <div class="small-12 medium-10 large-8 columns">
   <p class="contact__detail">Representation</p>
   <p><a href="tel:\+442078510200">+44 (0)20 7851 0200</a><br />
-<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#097;&#116;&#114;&#105;&#099;&#105;&#097;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#105;&#097;&#109;&#099;&#109;&#097;&#104;&#111;&#110;&#046;&#099;&#111;&#109;">&#112;&#097;&#116;&#114;&#105;&#099;&#105;&#097;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#105;&#097;&#109;&#099;&#109;&#097;&#104;&#111;&#110;&#046;&#099;&#111;&#109;</a></p>
+<a href="mailto:patricia@patriciamcmahon.com">patricia@patriciamcmahon.com</a></p>
 
   </div>
 </div>
@@ -98,8 +126,20 @@
 </div>
 
 </section>
-<!-- End Content -->
-   
+
+<footer>
+  <div class="row collapse expanded">
+    <div class="shrink columns text-left">
+      <a href="/contact">© The Windsor Castle</a>
+    </div>
+
+    <div class="columns text-right">
+      <a href="http://garethjohnsdesign.com" target="_blank">Colophon</a>
+    </div>
+  </div>
+</footer>
+</div>
+
 </body>
 
 <!-- Scripts -->
