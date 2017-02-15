@@ -16,3 +16,16 @@ Example showing how to change the color/size of the icons:
 	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
 }
 ======================================================================================== */
+
+.icon-logo {
+  width: 18.3203125em;
+}
+
+.icon-logo {
+	font-size: 32px;
+	color: $color--white;
+}
+.icon-arrow_downward {
+	font-size: 32px;
+	color: $color--white;
+}

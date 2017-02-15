@@ -9,12 +9,12 @@
 
 // Settings
 // ==================================================
-$hamburger-padding-x                       : 1rem !default;
-$hamburger-padding-y                       : 1rem !default;
+$hamburger-padding-x                       : 0rem !default;
+$hamburger-padding-y                       : 0rem !default;
 $hamburger-layer-width                     : 40px !default;
 $hamburger-layer-height                    : 2px !default;
 $hamburger-layer-spacing                   : 6px !default;
-$hamburger-layer-color                     : $color--black !default;
+$hamburger-layer-color                     : $color--white !default;
 $hamburger-layer-border-radius             : 0px !default;
 $hamburger-hover-opacity                   : 0.5 !default;
 $hamburger-hover-transition-duration       : 0.05s !default;
@@ -37,7 +37,8 @@ $hamburger-types: (
 // Hamburger
 // ==================================================
 .hamburger {
-  padding: $hamburger-padding-y $hamburger-padding-x;
+//   padding: $hamburger-padding-y $hamburger-padding-x;
+  padding: 0.25rem 0rem 0rem 0rem;
   display: inline-block;
   cursor: pointer;
 
@@ -104,14 +105,6 @@ $hamburger-types: (
   }
 }
 
-.hamburger-inner-dark {
-  &,
-  &::before,
-  &::after {
-    background-color: $color--black;
-  }
-}
-
 
 // Hamburger types
 // ==================================================
@@ -141,11 +134,13 @@ $hamburger-types: (
 
     &.is-active {
       .hamburger-inner {
+        background-color: $color--black;
         transform: translate3d(0, ($hamburger-layer-spacing + $hamburger-layer-height) * -1, 0) rotate(-45deg);
         transition-delay: 0.32s;
         transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 
         &::after {
+          background-color: $color--black;
           top: 0;
           opacity: 0;
           transition: top 0.3s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
@@ -153,6 +148,7 @@ $hamburger-types: (
         }
 
         &::before {
+          background-color: $color--black;
           top: 0;
           transform: rotate(-90deg);
           transition: top 0.12s 0.18s cubic-bezier(0.33333, 0, 0.66667, 0.33333),

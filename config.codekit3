@@ -75,6 +75,12 @@
 		"oAP": "\/_includes\/navigation-canvas.html",
 		"oF": 0
 		},
+	"\/_includes\/navigation.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/navigation.html",
+		"oF": 0
+		},
 	"\/_includes\/overlay-menu.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -299,68 +305,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/BasisGrotesque.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/BasisGrotesque.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/fonts\/BasisGrotesque.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/BasisGrotesque.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/DTLHaarlemmerD.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/DTLHaarlemmerD.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/DTLHaarlemmerD.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/DTLHaarlemmerD.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/DTLHaarlemmerD.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/DTLHaarlemmerD.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/fonts\/DTLHaarlemmerD.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/DTLHaarlemmerD.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/DTLHaarlemmerD.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/DTLHaarlemmerD.woff",
-		"oF": 0
-		},
 	"\/assets\/fonts\/PostGrotesk-Regular.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -429,33 +373,49 @@
 		"oAP": "\/assets\/fonts\/TiemposHeadline-Semibold.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/WalbaumTextPro.eot": {
+	"\/assets\/fonts\/TiemposText-Regular.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/WalbaumTextPro.eot",
+		"oAP": "\/assets\/fonts\/TiemposText-Regular.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/WalbaumTextPro.svg": {
+	"\/assets\/fonts\/TiemposText-Regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/TiemposText-Regular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/TiemposText-Regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/WalbaumTextPro.svg",
+		"oAP": "\/assets\/fonts\/TiemposText-Regular.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/WalbaumTextPro.ttf": {
+	"\/assets\/fonts\/TiemposText-Regular.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/WalbaumTextPro.ttf",
+		"oAP": "\/assets\/fonts\/TiemposText-Regular.ttf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/WalbaumTextPro.woff": {
+	"\/assets\/fonts\/TiemposText-Regular.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/WalbaumTextPro.woff",
+		"oAP": "\/assets\/fonts\/TiemposText-Regular.woff",
 		"oF": 0
+		},
+	"\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
@@ -5261,90 +5221,17 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/smoothstate\/demos\/anchor-transitions\/assets\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/anchor-transitions\/assets\/css\/style.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/anchor-transitions\/assets\/js\/jquery.smoothState.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/anchor-transitions\/assets\/js\/jquery.smoothState.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/anchor-transitions\/assets\/js\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/anchor-transitions\/assets\/js\/main.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/anchor-transitions\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/anchor-transitions\/index.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/anchor-transitions\/page-left.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/anchor-transitions\/page-left.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/anchor-transitions\/page-right.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/anchor-transitions\/page-right.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/anchor-transitions\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/anchor-transitions\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/bower_components\/smoothstate\/demos\/barebones\/about.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/smoothstate\/demos\/barebones\/about.html",
 		"oF": 0
 		},
-	"\/bower_components\/smoothstate\/demos\/barebones\/assets\/js\/jquery.smoothState.min.js": {
+	"\/bower_components\/smoothstate\/demos\/barebones\/functions.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/barebones\/assets\/js\/jquery.smoothState.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/barebones\/assets\/js\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/barebones\/assets\/js\/main.js",
+		"oAP": "\/bower_components\/smoothstate\/demos\/barebones\/functions.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -5355,87 +5242,11 @@
 		"oAP": "\/bower_components\/smoothstate\/demos\/barebones\/index.html",
 		"oF": 0
 		},
-	"\/bower_components\/smoothstate\/demos\/barebones\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/barebones\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/bower_components\/smoothstate\/demos\/barebones\/submit.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/smoothstate\/demos\/barebones\/submit.html",
 		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/keyframes.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/keyframes.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/layout.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/layout.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/normalize.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/normalize.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/pageTransitions.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/assets\/css\/pageTransitions.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/csstricks\/assets\/js\/jquery.smoothState.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/assets\/js\/jquery.smoothState.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/csstricks\/assets\/js\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/assets\/js\/main.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/bower_components\/smoothstate\/demos\/csstricks\/detail.html": {
 		"ft": 8192,
@@ -5443,150 +5254,60 @@
 		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/detail.html",
 		"oF": 0
 		},
+	"\/bower_components\/smoothstate\/demos\/csstricks\/functions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/functions.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/smoothstate\/demos\/csstricks\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/index.html",
 		"oF": 0
 		},
-	"\/bower_components\/smoothstate\/demos\/csstricks\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/index.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/package.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/package.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/smoothstate\/demos\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/assets\/css\/demo-relevant.css": {
+	"\/bower_components\/smoothstate\/demos\/csstricks\/keyframes.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/assets\/css\/demo-relevant.css",
+		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/keyframes.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/assets\/css\/style-defaults.css": {
+	"\/bower_components\/smoothstate\/demos\/csstricks\/layout.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/assets\/css\/style-defaults.css",
+		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/layout.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/assets\/js\/jquery.smoothState.min.js": {
-		"ft": 64,
-		"mi": 1,
+	"\/bower_components\/smoothstate\/demos\/csstricks\/normalize.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/assets\/js\/jquery.smoothState.min.js",
+		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/normalize.css",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oS": 0
 		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/assets\/js\/main.js": {
-		"ft": 64,
-		"mi": 1,
+	"\/bower_components\/smoothstate\/demos\/csstricks\/pageTransitions.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/assets\/js\/main.js",
+		"oAP": "\/bower_components\/smoothstate\/demos\/csstricks\/pageTransitions.css",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/assets\/js\/modernizr.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/assets\/js\/modernizr.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/index.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/page-four.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/page-four.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/page-three.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/page-three.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/page-two.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/page-two.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/demos\/sidebar\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/demos\/sidebar\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oS": 0
 		},
 	"\/bower_components\/smoothstate\/gulpfile.js": {
 		"ft": 64,
@@ -5650,14 +5371,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bower_components\/smoothstate\/smoothstatedemo.gif": {
-		"ft": 4194304,
-		"iS": 309312,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/smoothstatedemo.gif",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/bower_components\/smoothstate\/src\/jquery.smoothState.js": {
 		"ft": 64,
 		"mi": 1,
@@ -5666,113 +5379,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/functions.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/functions.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/index.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/testAnchors.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/testAnchors.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/testAPI.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/testAPI.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/testCaching.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/testCaching.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/testForms.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/testForms.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/testUtility.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/testUtility.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/testWindowParity.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/testWindowParity.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/views\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/views\/about.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/views\/home.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/views\/home.html",
-		"oF": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/views\/keyframes.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/views\/keyframes.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/views\/styles.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/views\/styles.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bower_components\/smoothstate\/tests\/views\/submit.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/smoothstate\/tests\/views\/submit.html",
-		"oF": 0
 		},
 	"\/bower_components\/svgxuse\/.bower.json": {
 		"ft": 524288,

@@ -59,8 +59,8 @@ $foundation-palette: (
 );
 */
 $foundation-palette: (
-  primary: $color--black,
-  secondary: #767676,
+  primary: $color--darkest-gray,
+  secondary: $color--white,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -70,8 +70,8 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
-$body-font-color: $black;
+$body-background: $color--mercury;
+$body-font-color: $color--darkest-gray;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: 'PostGrotesk-Regular', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
@@ -79,9 +79,11 @@ $global-margin: 1rem;
 $global-padding: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+// $global-radius: 0;
+$global-radius: 2px;
 $global-text-direction: ltr;
-$global-flexbox: false;
+// $global-flexbox: false;
+$global-flexbox: true;
 $print-transparent-backgrounds: true;
 
 @include add-foundation-colors;
@@ -114,17 +116,20 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+// $header-font-family: $body-font-family;
 $header-font-family: 'TiemposHeadline-Semibold', Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
+$alternative-font-family: 'TiemposText-Regular', Helvetica, Roboto, Arial, sans-serif;
+$alternative-font-weight: $global-weight-normal;
+$alternative-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
+    'h1': ('font-size': 32),
     'h2': ('font-size': 20),
     'h3': ('font-size': 19),
     'h4': ('font-size': 18),
@@ -132,7 +137,7 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48),
+    'h1': ('font-size': 40),
     'h2': ('font-size': 40),
     'h3': ('font-size': 31),
     'h4': ('font-size': 25),
@@ -185,10 +190,13 @@ $abbr-underline: 1px dotted $black;
 // 5. Typography Helpers
 // ---------------------
 
-$lead-font-size: $global-font-size * 1.25;
-$lead-lineheight: 1.6;
+// $lead-font-size: $global-font-size * 1.25;
+$lead-font-size: $global-font-size * 1.15;
+// $lead-lineheight: 1.6;
+$lead-lineheight: 1.5;
 $subheader-lineheight: 1.4;
-$subheader-color: $dark-gray;
+// $subheader-color: $dark-gray;
+$subheader-color: $color--darker-gray;
 $subheader-font-weight: $global-weight-normal;
 $subheader-margin-top: 0.2rem;
 $subheader-margin-bottom: 0.5rem;
@@ -453,11 +461,11 @@ $meter-fill-bad: $alert-color;
 // 24. Off-canvas
 // --------------
 
-// $offcanvas-size: 250px;
-$offcanvas-size: 450px;
-$offcanvas-vertical-size: 250px;
-$offcanvas-background: $light-gray;
-$offcanvas-background: $white;
+$offcanvas-size: 250px;
+// $offcanvas-vertical-size: 250px;
+$offcanvas-vertical-size: 61px;
+// $offcanvas-background: $light-gray;
+$offcanvas-background: $color--gray;
 // $offcanvas-shadow: 0 0 10px rgba($black, 0.7);
 $offcanvas-shadow: 0 0 0px rgba($black, 1);
 $offcanvas-push-zindex: 1;
@@ -640,8 +648,7 @@ $tooltip-radius: $global-radius;
 // 37. Top Bar
 // -----------
 
-// $topbar-padding: 0.5rem 0.5rem;
-$topbar-padding: 2rem;
+$topbar-padding: 1rem 1rem 1rem 1rem;
 // $topbar-background: $light-gray;
 // $topbar-background: $color--white;
 $topbar-background: transparent;
