@@ -15,7 +15,8 @@ defaults:
   values:
     layout: page
 url: http://thewindsorcastleclapton.com
-description: The Windsor Castle is a big Victorian pub located at 135 Lower Clapton Road, Hackney.
+description: The Windsor Castle is a big Victorian pub located at 135 Lower Clapton
+  Road, Hackney.
 permalink: pretty
 exclude:
 - Gruntfile.js
