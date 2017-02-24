@@ -45,12 +45,6 @@
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
-	"\/_includes\/excerpt.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/excerpt.html",
-		"oF": 0
-		},
 	"\/_includes\/footer.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -61,12 +55,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/head.html",
-		"oF": 0
-		},
-	"\/_includes\/icons.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_includes\/icons.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation-canvas.html": {
@@ -87,34 +75,10 @@
 		"oAP": "\/_includes\/overlay-menu.html",
 		"oF": 0
 		},
-	"\/_includes\/pagination.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_includes\/pagination.html",
-		"oF": 0
-		},
 	"\/_includes\/scripts.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/scripts.html",
-		"oF": 0
-		},
-	"\/_includes\/sharing.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_includes\/sharing.html",
-		"oF": 0
-		},
-	"\/_layouts\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/about.html",
-		"oF": 0
-		},
-	"\/_layouts\/contact.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -133,18 +97,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/missing.html",
-		"oF": 0
-		},
-	"\/_layouts\/page.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_layouts\/page.html",
-		"oF": 0
-		},
-	"\/_layouts\/post.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
 	"\/_site": {
@@ -272,24 +224,6 @@
 		"oAP": "\/_uploads\/main-bg.jpg",
 		"oF": 0,
 		"opt": 1
-		},
-	"\/about.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -6019,24 +5953,6 @@
 		"oAP": "\/CHANGELOG.html",
 		"oF": 0,
 		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/contact.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/contact.md",
-		"oF": 1,
-		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
