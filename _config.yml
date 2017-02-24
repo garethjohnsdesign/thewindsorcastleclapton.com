@@ -1,0 +1,53 @@
+---
+title: The Windsor Castle
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+url: http://thewindsorcastleclapton.com
+description: The Windsor Castle is a big Victorian pub located at 135 Lower Clapton
+  Road, Hackney.
+permalink: pretty
+exclude:
+- Gruntfile.js
+- Gemfile
+- Gemfile.lock
+- package.json
+- README*
+- node_modules
+- ".gitignore"
+- bower_components
+- config.codekit3
+- CHANGELOG.md
+- LICENSE.md
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+company: The Windsor Castle
+email: hello@thewindsorcastleclapton.com
+google_site_verification: oQiN6bS9M_g2Tab9_PIFUo7Cx3CqdPqUOe83iOMB1jA
+analytics: UA-89193321-1
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%b %d, %Y"
+future: true
+social:
+  facebook: https://www.facebook.com/thewindsorcastleclapton
+  instagram: https://www.instagram.com/windsorcastlee5/
+  twitter: https://twitter.com/windsorcastleE5

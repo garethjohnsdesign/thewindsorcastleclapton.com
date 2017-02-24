@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body class="{{page.title | slugify}} animated fadeIn">
+
+<div class="off-canvas position-top row expanded align-middle align-center" id="offCanvas" data-off-canvas data-transition="overlap">
+
+
+
+  <div class="shrink columns">
+    <ul class="dropdown menu" data-dropdown-menu>
+      {% for entry in site.data.navigation %}
+      {% assign sublinks = entry.sublinks %}
+      {% if sublinks %}
+      <li>
+      <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+      <ul class="menu vertical">
+      {% for sublink in sublinks %}
+      <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+      {% endfor %}
+      </ul>
+      </li>
+      {% else %}
+      <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
+
+<div class="off-canvas-content" data-off-canvas-content>
+  
+{{ content }}
+
+{% include footer.html %}
+</div>
+
+</body>
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+</html>
