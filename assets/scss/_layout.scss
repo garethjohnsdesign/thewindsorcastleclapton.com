@@ -45,6 +45,14 @@ a {
   transition: $primary-transition;
 }
 
+.anchor--dark {
+  border-bottom: 1px solid $color--black;
+}
+
+.anchor--light {
+  border-bottom: 1px solid $color--white;
+}
+
 // 2. Typography
 // -------------
 
@@ -94,13 +102,6 @@ i, cite, em, var, address, dfn {
   padding-top: 3rem;
   padding-bottom: 3rem;
   min-height: 100vh;
-  a {
-    border-bottom: 1px dotted $color--charcoal;
-  }
-  
-  a:hover {
-    border-bottom: 1px dotted transparent;
-  }
 }
 
 .home {
@@ -123,11 +124,11 @@ i, cite, em, var, address, dfn {
   margin-bottom: 0rem;
   }
   .menu a {
-  color: $color--black;
-  border-bottom: 1px dotted $color--charcoal;
+  font-family: $body-font-family-bold;
+//   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.22);
+  color: $color--white;
   @include breakpoint(small only) {
       color: $color--white;
-      border-bottom: 1px dotted $color--white;
     }
   }
   
@@ -150,6 +151,10 @@ i, cite, em, var, address, dfn {
   }
   a:hover {
   color: $color--gray;
+  }
+  ::selection {
+  background: $color--white;
+  color: $color--black;
   }
 }
 
@@ -174,7 +179,17 @@ i, cite, em, var, address, dfn {
     }
 }
 
+// 6. Location
+// ----------
 
+.location__sub {
+  font-family: $body-font-family-bold;
+  text-transform: uppercase;
+}
+
+.location__header {
+  padding-bottom: 2rem;
+}
 
 
 
@@ -319,14 +334,8 @@ div.row.excerpt__title {
 // 10. About
 // ---------
 
-.about__clients {
-  padding: 1rem 3rem 1rem 3rem;
-    @include breakpoint(small only) {
-      padding: 2rem;
-    }
-    h3 {
-      margin-bottom: 2rem;
-    }
+.about__socials {
+  font-family: $body-font-family-bold;
 }
 
 // 11. Footer
@@ -346,3 +355,42 @@ footer {
 }
 
 // 00. Testing
+
+.home__arrow {
+  @include sink;
+}
+
+.button.hollow.secondary { 
+  &:hover, &:focus {
+    border-color: $color--dark-gray;
+    color: $color--dark-gray;
+  }
+}
+
+.carousel--food {
+  img {
+    margin-left: 0.5rem;
+    display: block;
+    height: 100vh;
+      @include breakpoint(medium) {
+        height: 100vh;
+      }
+      @include breakpoint(large) {
+        height: 100vh;
+      }
+    }
+}
+
+.carousel--drinks {
+  img {
+    margin-left: 0.5rem;
+    display: block;
+    height: 100vh;
+      @include breakpoint(medium) {
+        height: 100vh;
+      }
+      @include breakpoint(large) {
+        height: 100vh;
+      }
+    }
+}

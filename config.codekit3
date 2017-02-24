@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -153,19 +153,115 @@
 		"oAP": "\/build\/_site",
 		"oF": 0
 		},
-	"\/_uploads\/gallery-01.jpg": {
+	"\/_uploads\/drinks-01.jpg": {
 		"ft": 16384,
-		"iS": 185518,
+		"iS": 2757546,
 		"oA": 0,
-		"oAP": "\/_uploads\/gallery-01.jpg",
+		"oAP": "\/_uploads\/drinks-01.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/_uploads\/gallery-02.jpg": {
+	"\/_uploads\/drinks-02.jpg": {
+		"ft": 16384,
+		"iS": 3404683,
+		"oA": 0,
+		"oAP": "\/_uploads\/drinks-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/drinks-03.jpg": {
+		"ft": 16384,
+		"iS": 176767,
+		"oA": 0,
+		"oAP": "\/_uploads\/drinks-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/drinks-04.jpg": {
+		"ft": 16384,
+		"iS": 150311,
+		"oA": 0,
+		"oAP": "\/_uploads\/drinks-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/drinks-05.jpg": {
+		"ft": 16384,
+		"iS": 216933,
+		"oA": 0,
+		"oAP": "\/_uploads\/drinks-05.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-01.jpg": {
+		"ft": 16384,
+		"iS": 185518,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-02.jpg": {
 		"ft": 16384,
 		"iS": 329217,
 		"oA": 0,
-		"oAP": "\/_uploads\/gallery-02.jpg",
+		"oAP": "\/_uploads\/food-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-03.jpg": {
+		"ft": 16384,
+		"iS": 161886,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-04.jpg": {
+		"ft": 16384,
+		"iS": 271849,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-05.jpg": {
+		"ft": 16384,
+		"iS": 273099,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-05.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-06.jpg": {
+		"ft": 16384,
+		"iS": 135898,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-06.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-07.jpg": {
+		"ft": 16384,
+		"iS": 172204,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-07.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-08.jpg": {
+		"ft": 16384,
+		"iS": 186172,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-08.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/food-09.jpg": {
+		"ft": 16384,
+		"iS": 181053,
+		"oA": 0,
+		"oAP": "\/_uploads\/food-09.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -175,7 +271,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/main-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/about.md": {
 		"cS": 0,
@@ -304,6 +400,40 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/fonts\/PostGrotesk-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PostGrotesk-Bold.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PostGrotesk-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PostGrotesk-Bold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PostGrotesk-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PostGrotesk-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/PostGrotesk-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PostGrotesk-Bold.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PostGrotesk-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PostGrotesk-Bold.woff",
+		"oF": 0
 		},
 	"\/assets\/fonts\/PostGrotesk-Regular.eot": {
 		"ft": 8192,
@@ -615,7 +745,7 @@
 		"uL": 1
 		},
 	"\/assets\/scss\/app.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -624,7 +754,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/app.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/bower.json": {
@@ -6918,6 +7048,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -7246,6 +7380,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -7339,6 +7477,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},

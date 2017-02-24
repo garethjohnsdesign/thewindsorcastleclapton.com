@@ -23,9 +23,18 @@ Example showing how to change the color/size of the icons:
 
 .icon-logo {
 	font-size: 32px;
-	color: $color--white;
+	fill: $color--white;
+	transition:$primary-transition;
+	&:hover {
+      fill: $color--black;
+    }
 }
+
 .icon-arrow_downward {
 	font-size: 32px;
-	color: $color--white;
+	fill: $color--white;
+	transition:$primary-transition;
+	 &:hover {
+      fill: $color--black;
+    }
 }

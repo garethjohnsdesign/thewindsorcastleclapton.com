@@ -9,9 +9,9 @@ layout: default
       <div class="home__top top-bar row expanded collapse align-middle align-justify"> 
         <div class="shrink columns top-bar-left-mobile">
           <ul class="menu simple">
-          <li><a href="#about">Reservations</a></li>
-          <li><a href="#">Call Us</a></li>
-          <li><a href="#">Map</a></li>
+          <li><a href="https://www.opentable.co.uk/the-windsor-castle-reservations-london?restref=101931&lang=en">Reservations</a></li>
+          <li><a href="tel:02089856096">Call Us</a></li>
+          <li><a href="https://goo.gl/maps/4T9iv">Map</a></li>
           </ul>
         </div>
         
@@ -34,7 +34,7 @@ layout: default
       
       
       <div class="home__bottom row expanded collapse align-middle align-center"> 
-        <div class="shrink columns">
+        <div class="shrink columns home__arrow">
           
           <a href="#about"><svg class="icon icon-arrow_downward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_downward"></use></svg></a>
 
@@ -62,13 +62,13 @@ The kitchen serves hearty pub food with a focus on local and seasonal produce se
       
       <div class="row expanded align-center">
         <div class="small-12 columns text-center">
-          <p>135 Lower Clapton Road<br>Hackney, E5 8EQ<br><a href="tel:4402089856096">+44 (0)208 985 6096</a></p>
+          <p><a href="https://goo.gl/maps/4T9iv">135 Lower Clapton Road<br>Hackney, London E5 8EQ</a><br><a href="tel:4402089856096">+44 (0)208 985 6096</a></p>
         </div>
       </div>
       
       <div class="row expanded align-center">
         <div class="shrink columns">
-          <ul class="menu simple align-center">
+          <ul class="menu simple align-center about__socials">
             <li><a href="{{site.social.twitter}}">TW</a></li>
             <li><a href="{{site.social.facebook}}">FB</a></li>
             <li><a href="{{site.social.instagram}}">IN</a></li>
@@ -93,9 +93,9 @@ The kitchen serves hearty pub food with a focus on local and seasonal produce se
         
         <div class="row expanded align-center">
           <div class="small-12 medium-8 large-6 columns text-center">
-          <a href="about.html" class="button hollow expanded">Main Menu</a>
-          <a href="about.html" class="button hollow expanded">Sunday Menu</a>
-          <a href="about.html" class="button hollow expanded">Book a Table</a>
+          <a href="https://www.dropbox.com/s/pkvfmmgka5fypc1/the-windsor-castle-menu.pdf?dl=1" class="button hollow expanded">Main Menu</a>
+          <a href="https://www.dropbox.com/s/nurdijkkx1596n5/the-windsor-castle-sunday-menu.pdf?dl=1" class="button hollow expanded">Sunday Menu</a>
+          <a href="https://www.opentable.co.uk/the-windsor-castle-reservations-london?restref=101931&lang=en" class="button hollow expanded">Book a Table</a>
           </div>
         </div>
         
@@ -105,10 +105,18 @@ The kitchen serves hearty pub food with a focus on local and seasonal produce se
   </div>
 </section>
 
+<!--
 <section class="gallery" id="gallery">
     {% for image in page.images %}
       <div class="gallery-cell" style="background-image: url({{image}})"></div>
     {% endfor %}
+</section>
+-->
+
+<section class="carousel--food">
+{% for image in page.food-images %}
+    <img src="{{image}}">
+{% endfor %}
 </section>
 
 
@@ -120,13 +128,13 @@ The kitchen serves hearty pub food with a focus on local and seasonal produce se
       <div class="small-11 medium-8 large-8 columns text-center">
         
         <h1>Drinks</h1>
-        <p class="lead">The beer selection features our favourite East London breweries including Five Points, Trumans, Meantime, and Crate alongside some slightly more familiar faces for those of you who like their beer with minimum fuss. We also serve an ever-evolving selection of seasonal house drinks, see our <a href="{{site.socials.facebook}}" target="_blank">Facebook</a> and <a href="{{site.socials.twitter}}" target="_blank">Twitter</a> for the latest.</p>
+        <p class="lead">The beer selection features our favourite East London breweries including <a href="http://fivepointsbrewing.co.uk" target="_blank" class="anchor--light">Five Points</a>, <a href="https://www.trumansbeer.co.uk" target="_blank" class="anchor--light">Trumans</a>, <a href="https://www.meantimebrewing.com" target="_blank" class="anchor--light">Meantime</a>, and <a href="http://cratebrewery.com" target="_blank" class="anchor--light">Crate</a> alongside some slightly more familiar faces for those of you who like their beer with minimum fuss. We also serve an ever-evolving selection of seasonal house drinks, see our <a href="{{site.social.facebook}}" target="_blank" class="anchor--light">Facebook</a> and <a href="{{site.social.twitter}}" target="_blank" class="anchor--light">Twitter</a> for the latest.</p>
         <p>Open seven days from twelve noon.</p>
         
         <div class="row expanded align-center">
           <div class="small-12 medium-8 large-6 columns text-center">
-          <a href="about.html" class="button hollow secondary expanded">Wine Menu</a>
-          <a href="about.html" class="button hollow secondary expanded">Drinks Menu</a>
+          <a href="https://www.dropbox.com/s/5cb1oygf3xl6ioa/the-windsor-castle-wine-list.pdf?dl=1" class="button hollow secondary expanded">Wine Menu</a>
+<!--           <a href="about.html" class="button hollow secondary expanded">Drinks Menu</a> -->
           </div>
         </div>
         
@@ -136,10 +144,10 @@ The kitchen serves hearty pub food with a focus on local and seasonal produce se
   </div>
 </section>
 
-<section class="gallery" id="gallery">
-    {% for image in page.images %}
-      <div class="gallery-cell" style="background-image: url({{image}})"></div>
-    {% endfor %}
+<section class="carousel--drinks">
+{% for image in page.drinks-images %}
+    <img src="{{image}}">
+{% endfor %}
 </section>
 
 
@@ -151,13 +159,13 @@ The kitchen serves hearty pub food with a focus on local and seasonal produce se
       <div class="small-11 medium-8 large-8 columns text-center">
         
         <h1>Reservations</h1>
-        <p class="lead">We can accommodate very large groups at the pub, and we offer the option of a banquet for parties above twelve guests. Exclusive bookings are welcome, for more information <a href="tel:020898560965">call</a> or email <a href="mailto:bookings@thewindsorcastleclapton.com">email</a> or make a booking by clicking on the link below.</p>
-        <p>Please note that we can offer a 1AM license for parties on request for Thurs, Fri and Saturday</p>
+        <p class="lead">We can accommodate very large groups at the pub, and we offer the option of a banquet for parties above twelve guests. Exclusive bookings are welcome, for more information <a href="tel:020898560965" class="anchor--dark">call</a> or <a href="mailto:bookings@thewindsorcastleclapton.com" class="anchor--dark">email</a></p>
+        <p>Please note that we can offer a 1AM license for parties on request for Thursday, Friday and Saturday</p>
         
         <div class="row expanded align-center">
           <div class="small-12 medium-8 large-6 columns text-center">
-          <a href="about.html" class="button hollow expanded">Book a Table</a>
-          <a href="about.html" class="button hollow expanded">Group / Exclusive</a>
+          <a href="https://www.opentable.co.uk/the-windsor-castle-reservations-london?restref=101931&lang=en" class="button hollow expanded" target="_blank">Book a Table</a>
+          <a href="mailto:bookings@thewindsorcastleclapton.com" class="button hollow expanded">Group / Exclusive</a>
           </div>
         </div>
         
@@ -170,100 +178,54 @@ The kitchen serves hearty pub food with a focus on local and seasonal produce se
 
 <section class="row expanded align-middle align-center section location" id="location">
   <div class="columns align-self-middle"> 
-    
-    
+  
     <div class="row expanded align-center">
-      <div class="small-11 medium-8 large-8 columns text-center">
-        
-        <h1>Find Us</h1>
-        <p class="lead">The Windsor Castle, 135 Lower Clapton Road, London, E5 8EQ - <a href="https://goo.gl/maps/4T9iv" target="_blank">Map</a></p>
-
-        
-        <div class="row expanded align-center">
-          <div class="small-11 medium-6 large-expand columns">
-				<p class="lead">By Car</p>
-				<p>There are pay and display parking bays on the streets adjacent to The Windsor Castle, however spaces can become limited at peak times.</p>
-				<p><a href="http://en.parkopedia.co.uk/parking/e5_8eq/" target="_blank">Parking Map</a></p>
-			</div>
-
-
-			<div class="small-11 medium-6 large-expand columns">
-				<p class="lead">Train and Overground</p>
-				<p>The are several stations within walking distance:<br>
-				Clapton – 10 min<br>
-				Hackney Central – 10 min<br>
-				Hackney Downs – 10 min</p>
-				
-				<p><a href="http://www.tfl.gov.uk/plan-a-journey/?&amp;to=E5+8EQ" target="_blank">TFL</a></p>
-			</div>
-
-
-			<div class="small-11 medium-6 large-expand columns">
-				<p class="lead">By Bus</p>
-				<p>Nearby bus stops served by 38, 253, 106, 55, 254, 48, 56,
-				488, 242, 393.</p>
-				<p><a href="http://www.tfl.gov.uk/plan-a-journey/?&amp;to=E5+8EQ" target="_blank">TFL</a></p>
-			</div>
-
-
-			<div class="small-11 medium-6 large-expand columns">
-				<p class="lead">By Bike</p>
-				<p>There are a number of bike racks located outside of the pub.</p>
-			</div>
+    <div class="small-11 medium-8 large-8 columns text-center">
+      
+        <div class="row expanded align-center location__header">
+          <div class="shrink columns">
+            <h1>Find Us</h1>
+            <p class="lead">The Windsor Castle, 135 Lower Clapton Road, London, E5 8EQ - <a href="https://goo.gl/maps/4T9iv" target="_blank" class="anchor--dark">Map</a></p>
+          </div>
         </div>
-        
-      </div>
+      
+      
+        <div class="row expanded align-center">
+          
+          <div class="small-11 medium-6 columns">
+            <p class="location__sub">By Car</p>
+            <p>There are pay and display parking bays on the streets adjacent to The Windsor Castle, however spaces can become limited at peak times.</p>
+            <p><a href="http://en.parkopedia.co.uk/parking/e5_8eq/" target="_blank" class="anchor--dark">Parking Map</a></p>
+          </div>
+      
+      
+          <div class="small-11 medium-6 columns">
+            <p class="location__sub">Train and Overground</p>
+            <p>The are several stations within walking distance:<br>
+            Clapton — 10 min<br>
+            Hackney Central – 10 min<br>
+            Hackney Downs – 10 min</p>
+            <p><a href="http://www.tfl.gov.uk/plan-a-journey/?&amp;to=E5+8EQ" target="_blank" class="anchor--dark">TFL</a></p>
+          </div>
+      
+      
+          <div class="small-11 medium-6 large-6 columns">
+            <p class="location__sub">By Bus</p>
+            <p>Nearby bus stops served by 38, 253, 106, 55, 254, 48, 56,
+            488, 242, 393.</p>
+            <p><a href="http://www.tfl.gov.uk/plan-a-journey/?&amp;to=E5+8EQ" target="_blank" class="anchor--dark">TFL</a></p>
+          </div>
+      
+      
+          <div class="small-11 medium-6 large-expand columns">
+            <p class="location__sub">By Bike</p>
+            <p>There are a number of bike racks located outside of the pub.</p>
+          </div>
+          
+        </div>
+    
+    </div>
     </div>
   
   </div>
 </section>
-
-<!--
-<section class="section" id="location">
-  
-		<div class="row">
-			<div class="columns text-center">
-				<h1>Find Us</h6>
-				<p class="lead">The Windsor Castle, 135 Lower Clapton Road, London, E5 8EQ - <a href="https://goo.gl/maps/4T9iv" target="_blank">Map</a></p>
-			</div>
-		</div>
-
-
-		<div class="row">
-			
-			<div class="columns">
-				<p class="lead">By Car</p>
-				<p>There are pay and display parking bays on the streets adjacent to The Windsor Castle, however spaces can become limited at peak times.</p>
-				<p><a href="http://en.parkopedia.co.uk/parking/e5_8eq/" target="_blank">Parking Map</a></p>
-			</div>
-
-
-			<div class="columns">
-				<p class="lead">Train and Overground</p>
-				<p>The are several stations within walking distance:<br>
-				Clapton – 10 min<br>
-				Hackney Central – 10 min<br>
-				Hackney Downs – 10 min</p>
-				
-				<p class="underline"><a href="http://www.tfl.gov.uk/plan-a-journey/?&amp;to=E5+8EQ" target="_blank">TFL</a></p>
-			</div>
-
-
-			<div class="columns">
-				<p class="lead">By Bus</p>
-				<p>Nearby bus stops served by 38, 253, 106, 55, 254, 48, 56,
-				488, 242, 393.</p>
-				<p class="underline"><a href="http://www.tfl.gov.uk/plan-a-journey/?&amp;to=E5+8EQ" target="_blank">TFL</a></p>
-			</div>
-
-
-			<div class="columns">
-				<p class="lead">By Bike</p>
-				<p>There are a number of bike racks located outside of the pub.</p>
-			</div>
-			
-		</div>
-		
-		</div>
-</section>
--->
