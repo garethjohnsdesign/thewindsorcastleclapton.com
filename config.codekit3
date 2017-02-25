@@ -63,6 +63,12 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
+	"\/_layouts\/compress.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/compress.html",
+		"oF": 0
+		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
 		"oA": 2,
