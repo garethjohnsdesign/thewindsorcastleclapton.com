@@ -1,6 +1,7 @@
 ---
 title: The Windsor Castle
 image: "/assets/img/og-image.png"
+home-image: "/uploads/main-bg.jpg"
 food-images:
 - "/uploads/food-01.jpg"
 - "/uploads/food-02.jpg"
