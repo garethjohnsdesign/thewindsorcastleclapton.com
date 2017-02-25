@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 
@@ -8,9 +12,6 @@
 <body class="{{page.title | slugify}} animated fadeIn">
 
 <div class="off-canvas position-top row expanded align-middle align-center" id="offCanvas" data-off-canvas data-transition="overlap">
-
-
-
   <div class="shrink columns">
     <ul class="dropdown menu" data-dropdown-menu>
       {% for entry in site.data.navigation %}
@@ -30,13 +31,10 @@
       {% endfor %}
     </ul>
   </div>
-
 </div>
 
 <div class="off-canvas-content" data-off-canvas-content>
-  
 {{ content }}
-
 {% include footer.html %}
 </div>
 

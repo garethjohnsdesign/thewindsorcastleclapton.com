@@ -51,3 +51,14 @@ social:
   facebook: https://www.facebook.com/thewindsorcastleclapton
   instagram: https://www.instagram.com/windsorcastlee5/
   twitter: https://twitter.com/windsorcastleE5
+compress_html:
+  clippings: []
+  comments:
+  - "<!-- "
+  - " -->"
+  endings: []
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []

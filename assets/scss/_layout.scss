@@ -1,3 +1,6 @@
+//  The Windsor Castle Settings
+//  ---------------------------
+//
 //  Table of Contents:
 //
 //   1. Global
@@ -5,21 +8,21 @@
 //   3. 404
 //   4. Navigation
 //   5. Sections
-//   6. Excerpt
-//   7. Page
-//   8. Contact
+//   6. Carousel
+//   7. Location
+//   8. Footer
 
 // 1. Global
 // ---------
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 :focus {
-outline: 0;
+  outline: 0;
 }
 
 body {
@@ -53,6 +56,13 @@ a {
   border-bottom: 1px solid $color--white;
 }
 
+.button.hollow.secondary { 
+  &:hover, &:focus {
+    border-color: $color--dark-gray;
+    color: $color--dark-gray;
+  }
+}
+
 // 2. Typography
 // -------------
 
@@ -74,12 +84,12 @@ i, cite, em, var, address, dfn {
 .missing {
   margin-top: 3rem;
   margin-bottom: 3rem;
-    a {
-      color: $color--dark-gray;
-    }
-    a:hover {
-      color: $color--black;
-    }
+  a {
+    color: $color--dark-gray;
+  }
+  a:hover {
+    color: $color--black;
+  }
 }
 
 // 4. Navigation
@@ -87,16 +97,15 @@ i, cite, em, var, address, dfn {
 
 .off-canvas {
   a:hover {
-    color: $primary-color
+    color: $primary-color;
   }
   a:focus {
-    color: $primary-color
+    color: $primary-color;
   }
 }
 
 // 5. Sections
-// --------
-
+// -----------
 
 .section {
   padding-top: 3rem;
@@ -108,35 +117,37 @@ i, cite, em, var, address, dfn {
   min-height: 100vh;
   padding-top: 0rem;
   padding-bottom: 2rem;
-  background: url(/uploads/main-bg.jpg) 50% 50% no-repeat;
+  background-position: center center;
   background-size: cover;
   @include breakpoint(small only) {
-      min-height: 90vh;
-    }
-}
-
-.home {
+    min-height: 90vh;
+  }
   a {
-  color: $color--white;
+    color: $color--white;
   }
   h1 {
-  color: $color--white;
-  margin-bottom: 0rem;
+    color: $color--white;
+    margin-bottom: 0rem;
   }
   .menu a {
-  font-family: $body-font-family-bold;
-//   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.22);
-  color: $color--white;
-  @include breakpoint(small only) {
+    font-family: $body-font-family-bold;
+    color: $color--white;
+    @include breakpoint(small only) {
       color: $color--white;
     }
   }
-  
 }
 
+.home__arrow {
+  @include sink;
+}
 
 .about {
   background: $color--periglacial-blue;
+}
+
+.about__socials {
+  font-family: $body-font-family-bold;
 }
 
 .food {
@@ -147,39 +158,55 @@ i, cite, em, var, address, dfn {
   color: $color--white;
   background: $color--darkest-gray;
   a {
-  color: $color--white;
+    color: $color--white;
   }
   a:hover {
-  color: $color--gray;
+    color: $color--gray;
   }
   ::selection {
-  background: $color--white;
-  color: $color--black;
+    background: $color--white;
+    color: $color--black;
   }
-}
-
-.gallery {
 }
 
 .reservations {
   background: $color--white;
 }
 
-.top-bar-left-mobile {
-  z-index: 1000;
-  @include breakpoint(small only) {
-      z-index: 1;
+// 6. Carousel
+// -----------
+
+.carousel--food {
+  height: 100vh;
+  img {
+    margin-left: 0.5rem;
+    display: block;
+    height: 100vh;
+    @include breakpoint(medium) {
+      height: 100vh;
     }
+    @include breakpoint(large) {
+      height: 100vh;
+    }
+  }
 }
 
-.top-bar-right-mobile {
-  z-index: 1000;
-  @include breakpoint(small only) {
-      z-index: 1;
+.carousel--drinks {
+  height: 100vh;
+  img {
+    margin-left: 0.5rem;
+    display: block;
+    height: 100vh;
+    @include breakpoint(medium) {
+      height: 100vh;
     }
+    @include breakpoint(large) {
+      height: 100vh;
+    }
+  }
 }
 
-// 6. Location
+// 7. Location
 // ----------
 
 .location__sub {
@@ -192,205 +219,18 @@ i, cite, em, var, address, dfn {
 }
 
 
-
-// 6. Excerpt
-// ----------
-
-.excerpt {
-  position:relative;
-  opacity:1;
-  margin: 2rem;
-  transition: $primary-transition;
-    @include breakpoint(medium only) {
-      margin: 1.75rem;
-    }
-    @include breakpoint(small only) {
-      margin: 1.5rem;
-    }
-    img {
-      width:100%;
-    }
-    &:hover .excerpt__image:after {
-      background:$color--lightest-gray;
-      transition: $primary-transition;
-      opacity:0.8;
-    }
-    &:hover .excerpt__title p {
-      opacity: 1;
-      color: $color--black;
-    } 
-}
-
-.excerpt__title {
-  position:absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  margin: 0rem;
-    p {
-      opacity: 0;
-      color: $color--white;
-      transition: $primary-transition;
-      letter-spacing: 0.05rem;
-      margin: 0rem;
-    }
-}
-
-div.row.excerpt__title {
-  margin: 0rem;
-}
-
-.excerpt__image:after {
-  content:'\A';
-  position:absolute;
-  width:100%; 
-  height:100%;
-  top:0; 
-  left:0;
-  opacity:0;
-  transition: $primary-transition;
-}
-
-// 7. Page
-// -------
-
-.page__content {
-  padding: 1rem 3rem 1rem 3rem;
-    @include breakpoint(small only) {
-      padding: 2rem;
-    }
-    h3 {
-      margin-bottom: 2rem;
-    }
-}
-
-// 8. Contact
-// -------
-
-.contact {
-  padding: 3rem;
-    @include breakpoint(small only) {
-      padding: 2rem;
-    }
-}
-
-.contact__detail {
-  margin-bottom: 0rem;
-}
-
-.contact {
-  a {
-    display: inline-block;
-    position: relative;
-  }
-
-  a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    display: inline-block;
-    height: 1em;
-    width: 100%;
-    border-bottom: 1px solid $color--black;
-    margin-top: 5px;
-    transition: $primary-transition;
-  }
-
-  a:hover::after {
-    border-bottom: 1px solid $color--lightest-gray;
-    margin-top: 5px;
-  }
-}
-
-.contact__copyright {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-}
-
-.contact__address {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-}
-
-// 7. Gallery
-// ----------
-
-.gallery {
-  height: 100vh; 
-}
-
-.gallery-cell {
-  width: 100%;
-  height: 100vh;
-  /* inherit height from gallery */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  z-index: 1; 
-}
-  
-
-
-// 10. About
-// ---------
-
-.about__socials {
-  font-family: $body-font-family-bold;
-}
-
-// 11. Footer
+// 8. Footer
 // ----------
 
 footer {
   background-color: $color--darkest-gray;
   color: $color--white;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
   a {
     color: $color--white;
     display: block;
-    }
+  }
   @include breakpoint(small only) {
     padding: 2rem;
   }
-}
-
-// 00. Testing
-
-.home__arrow {
-  @include sink;
-}
-
-.button.hollow.secondary { 
-  &:hover, &:focus {
-    border-color: $color--dark-gray;
-    color: $color--dark-gray;
-  }
-}
-
-.carousel--food {
-  img {
-    margin-left: 0.5rem;
-    display: block;
-    height: 100vh;
-      @include breakpoint(medium) {
-        height: 100vh;
-      }
-      @include breakpoint(large) {
-        height: 100vh;
-      }
-    }
-}
-
-.carousel--drinks {
-  img {
-    margin-left: 0.5rem;
-    display: block;
-    height: 100vh;
-      @include breakpoint(medium) {
-        height: 100vh;
-      }
-      @include breakpoint(large) {
-        height: 100vh;
-      }
-    }
 }
