@@ -53,7 +53,9 @@ social:
   twitter: https://twitter.com/windsorcastleE5
 compress_html:
   clippings: []
-  comments: ["<!-- ", " -->"]
+  comments:
+  - "<!-- "
+  - " -->"
   endings: []
   ignore:
     envs: []
